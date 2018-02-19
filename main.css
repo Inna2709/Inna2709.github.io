@@ -1,0 +1,47 @@
+body{
+background: #380842; 
+}
+
+ul li{
+	display: block;
+	padding: 0px;
+	margin: 0px;
+}
+
+h1{
+	text-align: center;
+}
+
+.header{
+	padding: 10px 160px;
+	background: black;
+	color: white;
+}
+
+#main{
+	margin: 10px 60px;
+	width: 570px;
+	height: 400px;
+	background: white;
+}
+
+.table{
+	width:400px;
+	padding: 0px;
+	margin: 10px 50px;
+ 	font-size: 14px;
+ 	background: white;
+ 	color: black;
+  	border-collapse: collapse;
+  	text-align: center;
+}
+
+.activ{
+	border: 1px solid black;
+	box-sizing: border-box;
+}
+
+.cell{
+	width: 100px;
+	height: 100px;
+}
