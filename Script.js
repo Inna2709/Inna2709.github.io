@@ -40,7 +40,7 @@ function new_g(){
             for(var j=0; j<5; j++)       
                 newActiv(active_blocks[j]);
     point=0;
-    var startFrom = 10;
+    var startFrom = 60;
     document.getElementById('countdown').value=startFrom;
     timer = setInterval(function(){
         if(!chek){
