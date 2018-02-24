@@ -91,7 +91,7 @@ $( document ).on("click",".activ",function(){
 	document.getElementById('points').value=point;
     $(this).removeClass('activ');
     $(this).css("background", "black");
-    var num= Math.floor(Math.random() * 3);
+    var num= Math.floor(Math.random() * 2+1);
     if(active_blocks.lentgh==1){ num=2;}
 
 			active_blocks.splice(active_blocks.indexOf(id),1);
